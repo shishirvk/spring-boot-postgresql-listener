@@ -19,7 +19,7 @@ Make sure following components / softwares are already installed on your local m
 
 1. PostgreSQL DB, default port for PostgreSQL is 5432 
 2. Create a table in PostgreSQL database
-3. Run the scripts in the [sql folder](./doc/sql) . Make sure you replace <table_name> with the name of the table you created in step 2
+3. Run the scripts in the docs/sql folder . Make sure you replace <table_name> with the name of the table you created in step 2
 
 
 
