@@ -1,23 +1,28 @@
 # spring-boot-postgresql-listener
 
-**A Spring-Boot app that consumes data from ProstgreSQL DB using Listen/Notify mechanism**
+**A Spring-Boot app that consumes data from ProstgreSQL DB using PostgreSQL DB's Listen/Notify feature**
 
-When you're done, you can delete the content in this README and update the file with details for others getting started with your repository.
-
-*We recommend that you open this README in another tab as you perform the tasks below. You can [watch our video](https://youtu.be/0ocf7u76WSo) for a full demo of all the steps in this tutorial. Open the video in a new tab to avoid leaving Bitbucket.*
+Features Implemented:
+- Subscribe to events from PostgreSQL database
+- Connect to Salesforce.com org via OAuth 2.0
+- UPSERT data into Salesfore.com org using SFDC Rest Apis  
 
 ---
 
-## Edit a file
+## Quick Start
 
-You’ll start by editing this README file to learn how to edit a file in Bitbucket.
+### Installing and running this app on local machine
 
-1. Click **Source** on the left side.
-2. Click the README.md link from the list of files.
-3. Click the **Edit** button.
-4. Delete the following text: *Delete this line to make a change to the README from Bitbucket.*
-5. After making your change, click **Commit** and then **Commit** again in the dialog. The commit page will open and you’ll see the change you just made.
-6. Go back to the **Source** page.
+Prerequisite:
+
+Make sure following components / softwares are already installed on your local machine   
+
+1. PostgreSQL DB, default port for PostgreSQL is 5432 
+2. Create a table in PostgreSQL database
+3. Run the scripts in the [sql folder](/sql) . Make sure you replace <table_name> with the name of the table you created in step 2
+
+
+
 
 ---
 
